@@ -10,9 +10,9 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    border: 5px solid var(--color5);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .arrowStyles{
