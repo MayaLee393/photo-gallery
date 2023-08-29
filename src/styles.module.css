@@ -1,0 +1,45 @@
+:root {
+    --color1: #F9DEC9;
+    --color2: #3A405A;
+    --color3: #99B2DD;
+    --color4: #E9AFA3;
+    --color5: #685044;
+}
+
+.slideStyles{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 5px solid var(--color5);
+    background-position: center;
+    background-size: cover;
+}
+
+.arrowStyles{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 45px;
+    z-index: 100;
+    cursor: pointer;
+    color: var(--color1)
+}
+
+.leftArrowStyles {
+    left: 32px;
+}
+
+.rightArrowStyles {
+    right: 32px;
+}
+
+.dotsConStyle {
+    display: flex;
+    justify-content: center;
+}
+
+.dotStyles {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 40px;
+}
