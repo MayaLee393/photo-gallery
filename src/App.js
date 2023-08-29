@@ -4,15 +4,21 @@ import ImageSlider from "./ImageSlider"
 
 function App() {
   const slides = [
-    {url: 'http://localhost:3000/IMG_6361.jpg',  title: 'Ham 1'},
-    {url: 'http://localhost:3000/IMG_6428.jpg',  title: 'Ham 2'},
-    {url: 'http://localhost:3000/IMG_6921.jpg',  title: 'Ham 3'},
-    {url: 'http://localhost:3000/IMG_7428.jpg',  title: 'Ham 4'},
-    {url: 'http://localhost:3000/IMG_8036.jpg',  title: 'Ham 5'}
-  ];
+    {url: 'http://localhost:3000/paintings/Painting1.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting2.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting3.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting4.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting5.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting6.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting7.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting8.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting9.jpg',  title: 'Indian Blankets'},
+    {url: 'http://localhost:3000/paintings/Painting10.jpg',  title: 'Indian Blankets'}
+  ]
+
   const containerStyles = {
     width: "500px",
-    height: "280px",
+    height: "600px",
     margin: "0 auto"
   }
   return (
