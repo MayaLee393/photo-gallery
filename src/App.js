@@ -4,26 +4,30 @@ import ImageSlider from "./ImageSlider"
 
 function App() {
   const slides = [
-    {url: 'http://localhost:3000/paintings/Painting1.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting2.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting3.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting4.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting5.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting6.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting7.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting8.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting9.jpg',  title: 'Indian Blankets'},
-    {url: 'http://localhost:3000/paintings/Painting10.jpg',  title: 'Indian Blankets'}
+    {url: './paintings/Painting1.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting2.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting3.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting4.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting5.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting6.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting7.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting8.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting9.jpg',  title: 'Indian Blankets'},
+    {url: './paintings/Painting10.jpg',  title: 'Indian Blankets'}
   ]
 
   const containerStyles = {
-    width: "500px",
+    position: "relative",
+    width: "400px",
     height: "600px",
+    top: "3.5em",
     margin: "0 auto"
   }
   return (
     <div className="App">
-      <h1>Maya's Photo Gallery</h1>
+      <div className='headerBox'>
+        <h1>Maya's Photo Gallery</h1>
+      </div>
       <div style={containerStyles}>
         <ImageSlider slides={slides}/>
       </div>

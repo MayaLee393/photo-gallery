@@ -20,22 +20,24 @@
     top: 50%;
     transform: translate(0, -50%);
     font-size: 45px;
-    z-index: 100;
+    z-index: 1;
     cursor: pointer;
-    color: var(--color1)
+    color: var(--color5);
 }
 
 .leftArrowStyles {
-    left: 32px;
+    left: -10%;
 }
 
 .rightArrowStyles {
-    right: 32px;
+    right: -10%;
 }
 
 .dotsConStyle {
+    position: relative;
     display: flex;
     justify-content: center;
+    bottom: 3em;
 }
 
 .dotStyles {
